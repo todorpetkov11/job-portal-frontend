@@ -1,0 +1,47 @@
+<section class="serach-main">
+    <div class="search-options">
+        <button type="button" class="button blue" [ngClass]="showJob ? 'selected' : '' " (click)="toggleSearch()">Find a Job</button>
+        <button type="button" class="button blue" [ngClass]="showCandidate ? 'selected' : '' " (click)="toggleSearch()">Find a Candidate</button>
+    </div>
+    <div class="search-section">
+        <form name="search-form-job" class="search-form job" *ngIf="showJob">
+
+            <div class="input-wrapper">
+                <fa-icon class="search-icon" [icon]="suitcase"></fa-icon>
+                <input class="input" type="text" placeholder="eg. Graphic Designer">
+            </div>
+            <div class="input-wrapper">
+                <fa-icon class="search-icon" [icon]="arrow"></fa-icon>
+                <select class="input">
+                    <option class="option" value="fulltime">Full time</option>
+                    <option class="option" value="fulltime">Part time</option>
+                </select>
+            </div>
+            <div class="input-wrapper">
+                <fa-icon class="search-icon" [icon]="location"></fa-icon>
+                <input class="input" type="text" placeholder="Location">
+            </div>
+            <button form="search-form-job" type="button" class="button blue search">Search</button>
+        </form>
+        <form name="search-form-candidate" class="search-form candidate" *ngIf="showCandidate">
+
+            <div class="input-wrapper">
+                <fa-icon class="search-icon" [icon]="suitcase"></fa-icon>
+                <input class="input" type="text" placeholder="eg. Adam Scott">
+            </div>
+            <div class="input-wrapper">
+                <fa-icon class="search-icon" [icon]="arrow"></fa-icon>
+                <select class="input">
+                    <option class="option" value="fulltime">Full time</option>
+                    <option class="option" value="fulltime">Part time</option>
+                </select>
+            </div>
+            <div class="input-wrapper">
+                <fa-icon class="search-icon" [icon]="location"></fa-icon>
+                <input class="input" type="text" placeholder="Location">
+            </div>
+            <button form="search-form-candidate" type="button" class="button blue search">Search</button>
+        </form>
+    </div>
+
+</section>

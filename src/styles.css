@@ -1,0 +1,21 @@
+@import url('assets/reset.css');
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans');
+@import url('assets/buttons.css');
+@import url('assets/forms.css');
+
+:root {
+    --blue: #157EFB;
+    --white: #ffffff;
+    --green: #5DD28E;
+    --grey: #222831;
+    --light-grey: rgb(128, 128, 128);
+    --form-grey: #c0c0c0;
+    --black: black;
+    font-family: "Nunito Sans", Arial, sans-serif;
+}
+
+body {
+    line-height: 1.8;
+    font-weight: 400;
+    color: var(--white);
+}

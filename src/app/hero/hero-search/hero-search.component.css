@@ -1,0 +1,50 @@
+.serach-main {
+    position: relative;
+}
+
+.search-options {
+    display: flex;
+    gap: 0.3rem;
+    margin-bottom: -0.5rem;
+    z-index: 1;
+}
+.search-options button {
+    padding: 1rem 2rem;
+    font-size: 1rem;
+    max-width: 25%;
+    transition: 0.3s ease-in-out;
+}
+
+.search-options button.selected {
+    background-color: var(--white);
+    color: var(--light-grey);
+}
+
+.button.search {
+    padding: 1rem 4.5rem;
+    font-size: 1rem;
+}
+
+.search-section {
+    position: absolute;
+    padding: 1.5rem;
+    background-color: var(--white);
+    border-radius: 0.5rem;
+}
+
+.search-form {
+    display: flex;
+    gap: 1.5rem;
+}
+
+.input-wrapper {
+    width: 25%;
+    position: relative;
+}
+
+.search-icon {
+    color: var(--form-grey);
+    position: absolute;
+    transform: translate(50%, 35%);
+}
+
