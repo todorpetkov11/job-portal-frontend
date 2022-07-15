@@ -1,0 +1,33 @@
+.footer {
+    background-color: var(--grey);
+    display: flex;
+    padding: 6rem 9rem;
+    gap: 2.5rem;
+    
+}
+
+.footer-section {
+    width: 25%;
+}
+.footer-list-title {
+    font-size: 1.3rem;
+    margin-bottom: 2.2rem;
+    color: var(--white);
+}
+
+.about-text {
+    text-align: left;
+    opacity: 0.5;
+}
+
+.footer-list-icon {
+    margin-right: 1rem;
+}
+
+.footer-list-item {
+    color: var(--light-grey);
+    opacity: 0.9;
+    font-size: 1rem;
+    margin-bottom: 1rem;
+    display: flex;
+}

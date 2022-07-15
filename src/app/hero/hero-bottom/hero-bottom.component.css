@@ -1,0 +1,17 @@
+.hero-bottom {
+    padding: 4rem 9rem;
+    color: var(--grey);
+    display: flex;
+    gap: 3rem;
+    margin-bottom: 7rem;
+}
+
+.hero-bottom-item {
+    width: 25%;
+    text-align: left;
+}
+
+.bottom-icon {
+    color: var(--blue);
+    font-size: 4rem;
+}
